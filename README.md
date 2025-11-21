@@ -15,3 +15,5 @@ https://dribbble.com/shots/24759521-COZYDIADORA-Personal-Portfolio-Website
 ![UI_UX PORTFOLIO 2025 - Shourya Khanna](https://github.com/user-attachments/assets/6993489f-04a5-438d-86bd-3fc7600bdea3)
 
 ![download (6)](https://github.com/user-attachments/assets/89bd0cb0-6300-48e2-86ed-d8384e6a0af1)
+
+![original-0b175b02825bde090ab34399cc4ac51b](https://github.com/user-attachments/assets/d1577a62-2c2e-494b-ac4e-63177c17642c)
