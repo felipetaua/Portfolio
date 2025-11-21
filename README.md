@@ -1,5 +1,8 @@
 # Portfolio
-Projeto futuro de criar meu portfólio pessoal
+rojeto futuro de criar meu portfólio pessoal
+
+logos:
+P<img width="896" height="1152" alt="Gemini_Generated_Image_dcoh26dcoh26dcoh" src="https://github.com/user-attachments/assets/01396f2e-58fd-461e-b186-fb08b97d9a65" />
 
 inspirações:
 
