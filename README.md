@@ -7,6 +7,8 @@ https://dribbble.com/shots/10724776-Carlos-Personal-Portfolio-Website
 
 https://dribbble.com/shots/24759521-COZYDIADORA-Personal-Portfolio-Website
 
+![original-99e56acacf80ee57f60712da80f86ea8](https://github.com/user-attachments/assets/a98f75b5-0944-4fd7-b3bc-89642cbc335c)
+
 ![Modern responsive ready-made portfolio website template for Framer](https://github.com/user-attachments/assets/37ec3f48-878b-47b5-8567-371895a550cc)
 
 
