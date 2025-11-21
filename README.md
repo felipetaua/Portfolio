@@ -11,3 +11,4 @@ https://dribbble.com/shots/24759521-COZYDIADORA-Personal-Portfolio-Website
 
 ![Personal Portfolio Website Figma UIUX Design _ Web Design _ UI Design _ UX Design](https://github.com/user-attachments/assets/2c017a05-2ddc-4405-a7e9-6eb3ada754cb)
 
+![UI_UX PORTFOLIO 2025 - Shourya Khanna](https://github.com/user-attachments/assets/6993489f-04a5-438d-86bd-3fc7600bdea3)
