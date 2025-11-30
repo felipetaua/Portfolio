@@ -1,6 +1,7 @@
 # Portfolio
 Projeto futuro de criar meu portfólio pessoal
 Adicionando a Identidade visual
+Pensando em minhaturas e exemplos de visual para o portifolio
 logos:
 
 <img width="896" height="1152" alt="Gemini_Generated_Image_dcoh26dcoh26dcoh" src="https://github.com/user-attachments/assets/01396f2e-58fd-461e-b186-fb08b97d9a65" />
