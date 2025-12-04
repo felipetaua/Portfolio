@@ -11,6 +11,7 @@ logos:
 Ajustar o projeto organizar:
 - Criar o modelo figma baseado nos portifolios
 - ilustrações, imagens, padrões de fontes, identidade visual completa
+- foco no layout, visual elegante
 
 inspirações:
 
