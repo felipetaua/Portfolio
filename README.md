@@ -8,6 +8,8 @@ logos:
 <img width="896" height="1152" alt="Gemini_Generated_Image_dcoh26dcoh26dcoh" src="https://github.com/user-attachments/assets/01396f2e-58fd-461e-b186-fb08b97d9a65" />
 <img width="896" height="1152" alt="Gemini_Generated_Image_2eqa8z2eqa8z2eqa" src="https://github.com/user-attachments/assets/df2fd0bf-dbe3-45d1-8d58-fe11269be318" />
 
+Ajustar o projeto organizar:
+
 inspirações:
 
 https://dribbble.com/shots/10724776-Carlos-Personal-Portfolio-Website
