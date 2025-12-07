@@ -15,8 +15,10 @@ Ajustar o projeto organizar:
 
 inspirações:
 
+Link 1:
 https://dribbble.com/shots/10724776-Carlos-Personal-Portfolio-Website
 
+Link 2:
 https://dribbble.com/shots/24759521-COZYDIADORA-Personal-Portfolio-Website
 
 Conteúdo:
