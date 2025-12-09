@@ -175,7 +175,7 @@ ul {
 /* MAIN */
 
 .main {
-    padding: 120px 4%;
+    padding: 80px 4%;
 }
 
 /* SERVICES */
@@ -188,6 +188,7 @@ ul {
 .header-services {
     display: flex;
     margin-bottom: 32px;
+    gap: 10px;
 }
 
 .title-services {
@@ -200,6 +201,11 @@ ul {
 
 .title-services, .text-services {
     width: 50%;
+}
+
+.decoration {
+    margin: 0 0  0 auto;
+    width: 250px;
 }
 
 .acordeon-item {
