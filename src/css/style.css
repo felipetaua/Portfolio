@@ -293,6 +293,44 @@ ul {
     width: 25%;
 }
 
+/* ABOUT */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 80px 0;
+}
+
+.about-section h2 {
+    color: var(--title-d);
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: var(--text-d);
+    line-height: 1.6;
+}
+
+.highlight-text {
+    position: relative;
+    display: inline-block;
+}
+
+.select-underline {
+    position: absolute;
+    bottom: -0.45em;
+    left: -0.1em;
+    width: 150%;
+    height: auto;
+    pointer-events: none;
+}
+
+/* ACORDEON */
+
 .acordeon-item {
     overflow: hidden; 
     
@@ -430,19 +468,24 @@ ul {
         font-size: 96px;
     }
 
-    .title-services {font-size: 64px;}
+    .title-services, .about-section h2 {font-size: 64px;}
 
     .hero-text {font-size: 24px;}
 
-    .text-services, .acordeon-title, .acordeon-number, .acordeon-content p {font-size: 18px;}
+    .text-services, .acordeon-title, .acordeon-number, .acordeon-content p, .about-section p{font-size: 18px;}
 }
 
 @media screen and (min-width: 1400px) {
     .hero-title {font-size: 120px;}
 
-    .title-services {font-size: 86px;}
+    .title-services, .about-section h2 {font-size: 86px;}
 
     .hero-text {font-size: 32px; }
 
-    .text-services, .acordeon-title, .acordeon-number, .acordeon-content p {font-size: 28px;}
+    .text-services, .acordeon-title, .acordeon-number, .acordeon-content p, .about-section p {font-size: 28px;}
+    .select-underline {
+        position: absolute;
+        bottom: -0.45em;
+        left: -0.1em;
+    }
 }
