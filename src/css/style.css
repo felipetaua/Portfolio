@@ -103,6 +103,8 @@ ul {
 .wrapper-hero {
     display: flex;
     flex-direction: column;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
 }
 
 .hero-content:not(.btn-action) {
@@ -294,7 +296,7 @@ ul {
     }
 }
 
-.fa-fire-flame-curved {
+.fa-code {
     color: #93fa93;
 }
 
