@@ -156,7 +156,7 @@ ul {
 /* MAIN */
 
 .main {
-    padding: 80px 4%;
+    padding: 120px 4%;
 }
 
 /* SERVICES */
@@ -168,7 +168,7 @@ ul {
 
 .header-services {
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 32px;
 }
 
 .title-services {
@@ -186,19 +186,21 @@ ul {
 .acordeon-item {
     overflow: hidden; 
     
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 16px;
 }
 
 .acordeon-header {
     display: flex;
     align-items: center;
-    padding: 40px 80px;
     cursor: pointer;
     
     background-color: #f7f7f7; 
     color: #333;
+
+    padding: 40px 80px;
     font-weight: 600;
+
     transition: background-color 0.3s;
 }
 
@@ -240,7 +242,7 @@ ul {
 
 .acordeon-checkbox:checked ~ .acordeon-content {
     max-height: 500px; 
-    padding: 20px;
+    padding: 40px 80px;
 }
 
 .tags-container {
@@ -255,17 +257,12 @@ ul {
     color: var(--text-l);
     padding: 5px 10px;
     border-radius: 4px;
-    font-size: 0.8em;
-}
-
-.acordeon-content p {
-    font-size: 0.9em;
-    margin-top: 0;
+    font-size: 1em;
 }
 
 .acordeon-image {
     width: 100%;
-    max-width: 350px;
+    max-width: 500px;
     height: auto;
     border-radius: 6px;
     margin-top: 15px;
@@ -312,7 +309,7 @@ ul {
 
     .hero-text {font-size: 24px;}
 
-    .text-services {font-size: 18px;}
+    .text-services, .acordeon-title, .acordeon-number, .acordeon-content p {font-size: 18px;}
 }
 
 @media screen and (min-width: 1400px) {
@@ -322,5 +319,5 @@ ul {
 
     .hero-text {font-size: 32px; }
 
-    .text-services {font-size: 28px;}
+    .text-services, .acordeon-title, .acordeon-number, .acordeon-content p {font-size: 28px;}
 }
