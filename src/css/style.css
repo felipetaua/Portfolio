@@ -66,9 +66,41 @@ ul {
     background-color: var(--primaryColor);
     color: var(--white);
 
+    display: block;
+
     transition: 1s all;
 }
 
 .btn-action:hover {
     opacity: 0.6;
+}
+
+/* HERO SECTION */
+
+.wrapper-hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content:not(.btn-action) {
+    width: 50%;
+    height: 100%;
+    padding: 20px 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-title {font-size: 64px; margin-bottom: 10px;}
+
+.hero-text {font-size: 18px; margin: 20px 0;}
+
+.main-image {
+    width: 100%;
+    height: 100%;
 }
