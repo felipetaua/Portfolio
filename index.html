@@ -16,8 +16,8 @@
         <a class="a" href="#"><h1>Tauã Felipe.</h1></a>
         <nav class="nav">
             <ul class="links">
-                <li><a class="a page" href="#services">Sobre</a></li>
                 <li><a class="a page" href="#services">Serviços</a></li>
+                <li><a class="a page" href="#services">Sobre</a></li>
                 <li><a class="a page" href="#projects">Experiência</a></li>
                 <li><a class="a page" href="#contact">Projeto</a></li>
             </ul>
@@ -58,10 +58,48 @@
         </div>
     </section>
 
-    <main>
-        <section id="services"> 
-            <h1>Serviços</h1>
+    <main class="main">
+        <section class="services-section" id="services"> 
+            <header class="header-services">
+                <h2 class="title-services" >Serviços | Contribuir</h2>
+                <p class="text-services">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione quasi natus, repellat nisi excepturi officiis unde maxime aliquam ea magnam possimus odio saepe asperiores exercitationem explicabo sed voluptatem adipisci facere.</p>
+            </header>
+            <main class="services-list">
+                <div class="acordeon-item">
+                    <input type="checkbox" id="acordeon-1" class="acordeon-checkbox" hidden>
+                    
+                    <label for="acordeon-1" class="acordeon-header">
+                        <span class="acordeon-number">01.</span>
+                        <span class="acordeon-title">UI/UX Design</span>
+                        <span class="acordeon-close-btn"><i class="fa-solid fa-angle-down"></i></span>
+                    </label>
+                    
+                    <div class="acordeon-content">
+                        <p>Seu conteúdo de UI/UX Design...</p>
+                    </div>
+                </div>
 
+                <div class="acordeon-item">
+                    <input type="checkbox" id="acordeon-2" class="acordeon-checkbox" checked hidden> <label for="acordeon-2" class="acordeon-header">
+                        <span class="acordeon-number">02.</span>
+                        <span class="acordeon-title">Application Design</span>
+                        <span class="acordeon-close-btn"><i class="fa-solid fa-angle-down"></i></span>
+                    </label>
+                    
+                    <div class="acordeon-content expanded">
+                        <div class="tags-container">
+                            <span class="tag">Cross-Platform App Design</span>
+                            <span class="tag">Progressive Web App</span>
+                            <span class="tag">Wireframing and Prototyping</span>
+                            <span class="tag">Custom App Theme Design</span>
+                        </div>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        
+                        <img src="src/img/test-app.webp" alt="Exemplo de Design de Aplicativo" class="acordeon-image">
+                    </div>
+                </div>
+            </main>
         </section>
     </main>
 
