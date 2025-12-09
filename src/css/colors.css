@@ -1,0 +1,16 @@
+:root {
+    --primaryColor: #2bb1e6;
+    --secondColor: rgb(148, 233, 98);
+
+    --white: #fff;
+    --black: #000;
+
+    --title-l: #ececec;
+    --subTitle-l: #dddddd;
+    --text-l: #bdbdbd;
+
+    --title-d: #0e0e0e;
+    --subTitle-d: #1f1f1f;
+    --text-d: #272727;
+
+}
