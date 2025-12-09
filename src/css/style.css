@@ -30,6 +30,45 @@ button {
     border-radius: 32px;
 }
 
-li ul {
+ul {
     list-style: none;
+}
+
+
+/* HEADER NAV */
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 18px 3%;
+}
+
+.nav .links {
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+}
+
+.page {
+    color: var(--subTitle-d);
+    transition: 1s all;
+}
+
+.page:hover {
+    color: var(--subTitle-l);
+    opacity: .6s all;
+}
+
+.btn-action {
+    background-color: var(--primaryColor);
+    color: var(--white);
+
+    transition: 1s all;
+}
+
+.btn-action:hover {
+    opacity: 0.6;
 }
