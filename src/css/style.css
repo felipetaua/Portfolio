@@ -153,6 +153,124 @@ ul {
     gap: 40px;
 }
 
+/* MAIN */
+
+.main {
+    padding: 80px 4%;
+}
+
+/* SERVICES */
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-services {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.title-services {
+    color: var(--title-d);
+}
+
+.text-services {
+    color: var(--text-d);
+}
+
+.title-services, .text-services {
+    width: 50%;
+}
+
+.acordeon-item {
+    overflow: hidden; 
+    
+    margin-bottom: 15px;
+    border-radius: 16px;
+}
+
+.acordeon-header {
+    display: flex;
+    align-items: center;
+    padding: 40px 80px;
+    cursor: pointer;
+    
+    background-color: #f7f7f7; 
+    color: #333;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header:hover {
+    background-color: #eee;
+}
+
+.acordeon-number {
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+
+.acordeon-title {
+    flex-grow: 1;
+}
+
+.acordeon-close-btn {
+    font-size: 1.5em;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.acordeon-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 40px;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+    
+    background-color: var(--gray); 
+    color: #f7f7f7;
+}
+
+.acordeon-checkbox:checked + .acordeon-header {
+    background-color: var(--gray); 
+    color: white;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.acordeon-checkbox:checked ~ .acordeon-content {
+    max-height: 500px; 
+    padding: 20px;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.tag {
+    background-color: #333;
+    color: var(--text-l);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+.acordeon-content p {
+    font-size: 0.9em;
+    margin-top: 0;
+}
+
+.acordeon-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
 @keyframes slide {
     0% {
         transform: translateX(0);
@@ -162,7 +280,7 @@ ul {
     }
 }
 
-.fa-solid {
+.fa-fire-flame-curved {
     color: #93fa93;
 }
 
@@ -190,11 +308,19 @@ ul {
         font-size: 96px;
     }
 
-    .hero-text {font-size: 32px; margin: 20px 0;}
+    .title-services {font-size: 64px;}
+
+    .hero-text {font-size: 24px;}
+
+    .text-services {font-size: 18px;}
 }
 
 @media screen and (min-width: 1400px) {
-    .hero-title {
-        font-size: 120px;
-    }
+    .hero-title {font-size: 120px;}
+
+    .title-services {font-size: 86px;}
+
+    .hero-text {font-size: 32px; }
+
+    .text-services {font-size: 28px;}
 }
