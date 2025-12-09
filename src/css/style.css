@@ -187,8 +187,9 @@ ul {
 
 .header-services {
     display: flex;
-    margin-bottom: 32px;
-    gap: 10px;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
 }
 
 .title-services {
@@ -200,12 +201,12 @@ ul {
 }
 
 .title-services, .text-services {
-    width: 50%;
+    width: 100%;
 }
 
 .decoration {
     margin: 0 0  0 auto;
-    width: 250px;
+    width: 25%;
 }
 
 .acordeon-item {
@@ -223,7 +224,7 @@ ul {
     background-color: #f7f7f7; 
     color: #333;
 
-    padding: 40px 80px;
+    padding: 20px 40px;
     font-weight: 600;
 
     transition: background-color 0.3s;
@@ -267,7 +268,7 @@ ul {
 
 .acordeon-checkbox:checked ~ .acordeon-content {
     max-height: 500px; 
-    padding: 40px 80px;
+    padding: 20px 40px;
 }
 
 .tags-container {
@@ -316,6 +317,21 @@ ul {
         display: flex;
         align-items: center;
         flex-direction: unset;
+    }
+
+    .header-services {
+        display: flex;
+        flex-direction: unset;
+        margin-bottom: 32px;
+        gap: 10px;
+    }
+
+    .title-services, .text-services {
+        width: 50%;
+    }
+
+    .acordeon-header, .acordeon-checkbox:checked ~ .acordeon-content{
+        padding: 40px 80px;
     }
 }
 
