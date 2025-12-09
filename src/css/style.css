@@ -77,8 +77,21 @@ ul {
     transition: 1s all;
 }
 
-.btn-action:hover {
+.btn-cv {
+    background: transparent;
+    text-transform: uppercase;
+    color: var(--primaryColor);
+}
+
+.btn-cv:hover {
+    text-decoration: underline;
+}
+
+.btn-action:hover:not(.btn-cv:hover) {
     opacity: 0.6;
+    background: transparent;
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
 }
 
 /* HERO SECTION */
