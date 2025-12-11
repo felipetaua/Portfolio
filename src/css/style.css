@@ -318,6 +318,7 @@ ul {
 .about-section p {
     color: var(--text-d);
     line-height: 1.6;
+    text-align: center;
 }
 
 .highlight-text {
@@ -332,6 +333,17 @@ ul {
     width: 150%;
     height: auto;
     pointer-events: none;
+}
+
+.about-info {
+    width: 100%;
+    padding: 40px;
+}
+
+.list-info li {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 /* ACORDEON */
