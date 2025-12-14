@@ -7,7 +7,7 @@ Criar o projeto no figma para desenvolver
 # Design do projeto
 
 # Sobre
-
+Meu portfólio para mostrar meus projetos desenvolvidos para atrair compradores de serviço, com projetos de real necessidade, além de mostrar uma parte do meu potencial.
 
 
 logos:
