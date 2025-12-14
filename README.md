@@ -13,6 +13,7 @@ Ajustar o projeto organizar:
 - ilustrações, imagens, padrões de fontes, identidade visual completa
 - foco no layout, visual elegante
 
+
 inspirações:
 
 Link 1:
@@ -20,6 +21,7 @@ https://dribbble.com/shots/10724776-Carlos-Personal-Portfolio-Website
 
 Link 2:
 https://dribbble.com/shots/24759521-COZYDIADORA-Personal-Portfolio-Website
+
 
 Conteúdo:
 
@@ -35,3 +37,5 @@ Conteúdo:
 ![download (6)](https://github.com/user-attachments/assets/89bd0cb0-6300-48e2-86ed-d8384e6a0af1)
 
 ![original-0b175b02825bde090ab34399cc4ac51b](https://github.com/user-attachments/assets/d1577a62-2c2e-494b-ac4e-63177c17642c)
+
+
